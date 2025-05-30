@@ -49,18 +49,6 @@ Interactive dashboard analyzing Category, Brand, and Product-wise sales performa
 
 ---
 
-## 📁 Repository Structure
-
-| Folder | Description |
-|--------|-------------|
-| `images/` | All visual assets (ERD, ETL, dashboard) |
-| `sql/` | Schema and insert scripts |
-| `apache_hop_pipelines/` | All ETL workflows |
-| `tableau_dashboards/` | Dashboard files |
-| `docs/` | Project proposal and PDF documentation |
-
----
-
 ## 🧪 Technologies Used
 
 - **ETL Tool**: Apache Hop
