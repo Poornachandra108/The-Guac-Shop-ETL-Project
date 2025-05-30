@@ -4,12 +4,6 @@ This project demonstrates the design and implementation of a complete ETL pipeli
 
 ---
 
-# 🛠️ ETL & Data Warehousing Project: Apache Hop + Oracle Cloud
-
-This project demonstrates an end-to-end ETL implementation using **Apache Hop**, **Oracle Cloud Autonomous Data Warehouse**, and **Tableau** for reporting.
-
----
-
 ## 📌 Overview
 
 - Created a star schema for the retail domain ("The Guac Stop").
@@ -21,7 +15,7 @@ This project demonstrates an end-to-end ETL implementation using **Apache Hop**,
 
 ## 🧱 Entity Relationship Diagram (ERD)
 
-![ERD](images/erd_model.png)
+![ERD](ERD.png)
 
 ---
 
