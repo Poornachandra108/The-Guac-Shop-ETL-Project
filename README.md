@@ -45,7 +45,7 @@ ETL flow to load the `FACT_SALES` table with stream lookups, filters, and batch 
 
 Interactive dashboard analyzing Category, Brand, and Product-wise sales performance.
 
-![Tableau Dashboard](images/tableau_dashboard.png)
+![Tableau Dashboard](images/Insights Dashboard.png)
 
 ---
 
