@@ -13,6 +13,18 @@ This project demonstrates the design and implementation of a complete ETL pipeli
 
 ---
 
+### 🚀 Project Workflow
+
+1. **Requirement Gathering** → Defined key business questions and data sources.
+2. **Data Modeling** → Designed star schema with FactSales and supporting dimensions.
+3. **Oracle Cloud Setup** → Created Autonomous Data Warehouse and defined tables via SQL.
+4. **ETL Development** → Built pipelines in Apache Hop for loading dimensions (with SCD) and fact tables using stream lookups.
+5. **Data Validation** → Verified data loads using SQL queries at each stage.
+6. **Visualization** → Connected Tableau to Oracle, developed dashboards to analyze sales trends.
+7. **Insights Generation** → Identified top-performing categories, brands, and products for strategic decision-making.
+
+--- 
+
 ## 🧱 Entity Relationship Diagram (ERD)
 
 ![ERD](ERD.png)
