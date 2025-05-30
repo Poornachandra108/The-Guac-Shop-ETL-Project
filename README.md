@@ -41,9 +41,6 @@ Interactive dashboard analyzing Category, Brand, and Product-wise sales performa
 
 ![Tableau Dashboard](Insights-Dashboard.png)
 
-### 3️⃣ Building the Business Intelligence Dashboard  
-Developed a visual sales analytics dashboard in Tableau for “The Guac Stop” retail business.
-
 #### 📊 Dashboard Highlights:
 - **🥇 Category-Wise Sales (Pie Chart):**  
   Displays the distribution of sales across major product categories.  
