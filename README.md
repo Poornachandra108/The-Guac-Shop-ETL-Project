@@ -29,7 +29,7 @@ This project demonstrates an end-to-end ETL implementation using **Apache Hop**,
 
 This reflects the star schema design implemented on Oracle Cloud.
 
-![Logical Model](images/logical_model.png)
+![Logical Model](Star Schema Data Model.png)
 
 ---
 
