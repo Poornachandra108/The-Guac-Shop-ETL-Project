@@ -98,9 +98,3 @@ Interactive dashboard analyzing Category, Brand, and Product-wise sales performa
 **Poorna Chandra Ramachandra**  
 🔗 [LinkedIn](www.linkedin.com/in/poorna-chandra-ramachandra-1b97791a0)  
 📫 Reach out for collaboration or questions.
-
----
-
-## 📄 License
-
-MIT License. See `LICENSE` for usage rights.
