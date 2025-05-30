@@ -4,93 +4,88 @@ This project demonstrates the design and implementation of a complete ETL pipeli
 
 ---
 
-## 📌 Project Highlights
+# 🛠️ ETL & Data Warehousing Project: Apache Hop + Oracle Cloud
 
-- 🔄 **ETL Pipelines using Apache Hop**
-  - Created robust workflows for loading `DimCustomer`, `DimProduct`, `FactSales`.
-  - Implemented **SCD handling** using Dimension Lookup/Update node.
-  - Used stream lookups for foreign key resolution and data cleansing.
-
-- 🗄️ **Oracle Autonomous Data Warehouse**
-  - Hosted star-schema data model with `DimDate`, `DimCustomer`, `DimProduct`, and `FactSales`.
-  - Populated a full `DimDate` table (2016–2026) using dynamic SQL.
-  - Ensured referential integrity and scalability.
-
-- 📊 **Visualization using Tableau**
-  - Built interactive dashboards for:
-    - Employment vs. Unemployment rate trends (NYS data).
-    - Category-wise sales analytics for "Guac Stop".
-  - Connected securely to Oracle DB using Wallet config.
+This project demonstrates an end-to-end ETL implementation using **Apache Hop**, **Oracle Cloud Autonomous Data Warehouse**, and **Tableau** for reporting.
 
 ---
 
-## 🧱 Data Model Overview
+## 📌 Overview
 
-- **Star Schema**:
-  - Fact Table: `FactSales`
-  - Dimension Tables: `DimCustomer`, `DimProduct`, `DimDate`
-
-> Refer to `sql/` folder for full schema and DDL scripts.
-
----
-
-## ⚙️ ETL Pipelines
-
-Apache Hop pipelines included:
-- 📥 `LoadDimCustomer.hpl` – Direct load from Oracle.
-- 🔁 `LoadDimProduct_SCD.hpl` – SCD Type-2 update from Excel.
-- 📦 `LoadFactSales.hpl` – Complex load with stream lookups, filtering, and batch inserts.
+- Created a star schema for the retail domain ("The Guac Stop").
+- Built ETL pipelines in Apache Hop to load both dimension and fact tables.
+- Integrated Tableau to develop interactive sales dashboards.
+- Secure Oracle DB connectivity using Wallet config.
 
 ---
 
-## 📊 Dashboards
+## 🧱 Entity Relationship Diagram (ERD)
 
-- **Employment Trends (NYS)**:
-  - Monthly employment and insured unemployment rate forecasting.
-- **Guac Stop Sales Insights**:
-  - Category, brand, and product-level trends.
-  - Yearly sales breakdown and product demand analysis.
-
-> Find `.twb` files in `tableau_dashboards/`.
+![ERD](images/erd_model.png)
 
 ---
 
-## 🔒 Secure Connectivity
+## 🧩 Data Warehouse Logical Model
 
-- Configured using Oracle Wallet (`cwallet.sso`, `sqlnet.ora`, `tnsnames.ora`)
-- JDBC connections for seamless interaction between Hop/Tableau and Oracle Cloud.
+This reflects the star schema design implemented on Oracle Cloud.
+
+![Logical Model](images/logical_model.png)
 
 ---
 
-## 📁 Repository Content
+## 🔄 ETL Pipeline in Apache Hop
+
+ETL flow to load the `FACT_SALES` table with stream lookups, filters, and batch inserts.
+
+![ETL Pipeline](images/etl_pipeline.png)
+
+---
+
+## 📊 Tableau Sales Dashboard
+
+Interactive dashboard analyzing Category, Brand, and Product-wise sales performance.
+
+![Tableau Dashboard](images/tableau_dashboard.png)
+
+---
+
+## 📁 Repository Structure
 
 | Folder | Description |
 |--------|-------------|
-| `sql/` | All DDL and sample data SQL scripts |
-| `apache_hop_pipelines/` | Pipeline definitions (.hpl files) |
-| `tableau_dashboards/` | Tableau visualization files |
-| `architecture/` | ERD & ETL flow diagrams |
-| `docs/` | Project proposal PDF and related documents |
+| `images/` | All visual assets (ERD, ETL, dashboard) |
+| `sql/` | Schema and insert scripts |
+| `apache_hop_pipelines/` | All ETL workflows |
+| `tableau_dashboards/` | Dashboard files |
+| `docs/` | Project proposal and PDF documentation |
 
 ---
 
-## 📈 Future Improvements
+## 🧪 Technologies Used
 
-- Automate ETL using Apache Hop workflows.
-- Schedule pipelines via cron or Airflow.
-- Integrate alerting and monitoring for ETL failures.
-- Expand to Snowflake or Azure Synapse for scalability.
+- **ETL Tool**: Apache Hop
+- **Data Warehouse**: Oracle Cloud ADW
+- **Visualization**: Tableau
+- **Languages**: SQL, PL/SQL
+
+---
+
+## ✅ Outcomes
+
+- Developed practical ETL and data modeling skills.
+- Automated dimension and fact table loads with stream lookups.
+- Delivered insights via interactive Tableau dashboards.
 
 ---
 
 ## 👨‍💻 Author
 
 **Poorna Chandra Ramachandra**  
-📫 [LinkedIn](https://linkedin.com/in/your-profile) | 🛠️ ETL, Data Warehousing, BI
+🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
+📫 Reach out for collaboration or questions.
 
 ---
 
 ## 📄 License
 
-MIT License. See `LICENSE` file for details.
-
+MIT License. See `LICENSE` for usage rights.
