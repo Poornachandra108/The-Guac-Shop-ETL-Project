@@ -41,6 +41,30 @@ Interactive dashboard analyzing Category, Brand, and Product-wise sales performa
 
 ![Tableau Dashboard](Insights-Dashboard.png)
 
+### 3️⃣ Building the Business Intelligence Dashboard  
+Developed a visual sales analytics dashboard in Tableau for “The Guac Stop” retail business.
+
+#### 📊 Dashboard Highlights:
+- **🥇 Category-Wise Sales (Pie Chart):**  
+  Displays the distribution of sales across major product categories.  
+  🔹 *Top performer: Wheat* with the highest sales volume.  
+  🔹 Enables quick understanding of category contribution to total revenue.
+
+- **🏷️ Brand-Wise Sales (Line Chart):**  
+  Trend analysis across leading brands such as Buffalo Farms, Nothing Breeder, and others.  
+  🔹 Visualizes brand spikes and dips in performance.  
+  🔹 Highlights brands with high product penetration and popularity.
+
+- **📦 Product-Wise Sales (Bar + Line Combo):**  
+  Dual-axis chart showing both revenue (bar) and quantity sold (line).  
+  🔹 *Top product: Chocolate Chip Cookies*, both in quantity and sales.  
+  🔹 Assists in identifying fast-moving vs. underperforming products.
+
+#### 🔎 Use Cases:
+- Identify which product lines drive the majority of revenue.
+- Support decisions on inventory, promotions, and procurement.
+- Pinpoint seasonal surges in specific product segments.
+
 ---
 
 ## 🧪 Technologies Used
@@ -63,7 +87,7 @@ Interactive dashboard analyzing Category, Brand, and Product-wise sales performa
 ## 👨‍💻 Author
 
 **Poorna Chandra Ramachandra**  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
+🔗 [LinkedIn](www.linkedin.com/in/poorna-chandra-ramachandra-1b97791a0)  
 📫 Reach out for collaboration or questions.
 
 ---
