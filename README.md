@@ -23,7 +23,7 @@ This project demonstrates the design and implementation of a complete ETL pipeli
 
 This reflects the star schema design implemented on Oracle Cloud.
 
-![Logical Model](Star Schema Data Model.png)
+![Logical Model](Star-Schema-Data-Model.png)
 
 ---
 
@@ -31,7 +31,7 @@ This reflects the star schema design implemented on Oracle Cloud.
 
 ETL flow to load the `FACT_SALES` table with stream lookups, filters, and batch inserts.
 
-![ETL Pipeline](images/etl_pipeline.png)
+![ETL Pipeline](etl-pipeline.png)
 
 ---
 
@@ -39,7 +39,7 @@ ETL flow to load the `FACT_SALES` table with stream lookups, filters, and batch 
 
 Interactive dashboard analyzing Category, Brand, and Product-wise sales performance.
 
-![Tableau Dashboard](images/Insights Dashboard.png)
+![Tableau Dashboard](Insights-Dashboard.png)
 
 ---
 
